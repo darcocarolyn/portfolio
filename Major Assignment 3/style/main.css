@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "ucf";
+  src: url(../font/NCAA\ UCF\ Knights.otf); }
+h1 {
+  background-color: #b89d4e;
+  color: black; }
+
+body {
+  background-image: url(../imgs/rm218batch10-mynt-12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+  font-family: "ucf"; }
+
+h1 > .img1, .img2 {
+  margin-top: -10px;
+  float: left;
+  width: 4%;
+  background-color: transparent; }
+
+h1 > .img2 {
+  margin-top: -10px;
+  float: right;
+  width: 4%;
+  background-color: transparent; }
+
+h3 {
+  font-family: "ucf"; }
+
+p {
+  font-size: 23px; }
+
+figcaption {
+  font-size: 15px; }
+
+@media screen and (min-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: minmax(100px, auto); }
+
+  .grid-item {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center; }
+
+  .g1 {
+    grid-column: 3 /span 1;
+    grid-row: 1 /span 1; }
+
+  .g2 {
+    margin-top: 5%;
+    grid-column: 1 /span 2; }
+
+  .g3 {
+    margin-top: 10%;
+    grid-column: 2 /span 2;
+    grid-row: 2 /span 1; }
+
+  .g4 {
+    grid-column: 1 /span 3;
+    grid-row: 3 /span 3; }
+
+  .g5 {
+    grid-column: 1 /span 1;
+    grid-row: 2 /span 1; }
+
+  img {
+    width: 65%; } }
+@media screen and (max-width: 900px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(100px, auto); }
+
+  .grid-item {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center; }
+
+  .g1 {
+    grid-column: 1;
+    grid-row: 2; }
+
+  .g2 {
+    grid-column: 1;
+    grid-row: 1; }
+
+  .g3 {
+    grid-column: 1;
+    grid-row: 3; }
+
+  .g4 {
+    grid-column: 1;
+    grid-row: 5; }
+
+  .g5 {
+    grid-column: 1;
+    grid-row: 4; }
+
+  img {
+    width: 65%; } }
+@media screen and (max-width: 600px) {
+  h1 > .img1, .img2 {
+    display: none; }
+
+  h1 > .img2 {
+    display: none; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(100px, auto); }
+
+  .grid-item {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center; }
+
+  .g1 {
+    grid-column: 1;
+    grid-row: 2; }
+
+  .g2 {
+    grid-column: 1;
+    grid-row: 1; }
+
+  .g3 {
+    grid-column: 1;
+    grid-row: 3; }
+
+  .g4 {
+    grid-column: 1;
+    grid-row: 5; }
+
+  .g5 {
+    grid-column: 1;
+    grid-row: 4; }
+
+  img {
+    width: 65%; } }
+
+/*# sourceMappingURL=main.css.map */

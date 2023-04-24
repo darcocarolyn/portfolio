@@ -1,0 +1,6 @@
+@import "mixin.scss";
+@import "variable.scss";
+
+//Imports Body and Grid Mixins
+@include body;
+@include grid;
