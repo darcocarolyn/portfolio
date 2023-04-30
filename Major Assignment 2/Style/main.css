@@ -45,10 +45,15 @@
       color: black;
       text-align: center;
     }
-    .link{
+  
+    a{
       color: white;
-      font-size: 25px;
-    }
+      font-size: 25px;    }
+    a:active {
+      color: #ecfcc0
+    }  
+    a:hover {color: #FCFC0C}  
+
   }
  /*Laptop Devices*/
  @media screen and (max-width: 900px) {
