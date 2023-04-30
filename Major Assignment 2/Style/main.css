@@ -21,6 +21,8 @@
  }
   #text{
     text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
 }
     .heading{
       display: grid;
@@ -46,8 +48,7 @@
         border: solid black 5px;
     }
     .footer{
-      left: 0;
-      bottom: 0;
+      font-size: 15px;
       width: 100%;
       color: black;
       text-align: center;
