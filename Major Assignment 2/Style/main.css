@@ -33,9 +33,7 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
-        background-image: linear-gradient(rgba(0, 196, 163, 0.5), rgb(0, 39, 112));
         text-align: center;
-        border: 3px solid;
         padding: 10px;
         grid-gap: 10px;
     }
