@@ -12,12 +12,15 @@
  #title{
   text-align: center;
   font-size: 40px;
+  background-color: bisque;
  }
  #aboutMe{
   margin-right: 650px;
   font-size: 25px;
  }
-  
+  #text{
+    text-align: center;
+}
     .heading{
       display: grid;
       grid-gap: 10px;
