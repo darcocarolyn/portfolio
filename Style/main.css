@@ -32,6 +32,8 @@ font-size: 25px;
   background-color: white;
 }
 #projects{
+  padding-top: 50px;
+  margin-left: 5%;
   text-align:left;
   font-family: "Loew";
 }
