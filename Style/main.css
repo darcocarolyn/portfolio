@@ -99,12 +99,11 @@ nav a {
     }
   
     a{
-      color: white;
+      color: #315a68;
       font-size: 20px;    }
     a:active {
-      color: #ecfcc0
+      color: #315a68
     }  
-    a:hover {color: #FCFC0C}  
     h3{
       text-align: center;
       font-size: 30px;
