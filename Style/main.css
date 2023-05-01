@@ -27,6 +27,9 @@ font-size: 25px;
   margin-top: -5%;
   background-color: white;
 }
+#projects{
+  margin-top: 5%;
+}
 nav {
   display: flex;
   flex-flow: row nowrap;
@@ -69,7 +72,6 @@ nav a {
         grid-template-columns: auto auto;
         grid-template-rows: auto;
         text-align: center;
-        border: 3px solid;
         padding: 10px;
         grid-gap: 10px;
     }
