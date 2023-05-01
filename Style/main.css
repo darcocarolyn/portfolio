@@ -27,9 +27,6 @@ font-size: 25px;
   margin-top: -5%;
   background-color: white;
 }
-#projects{
-  margin-top: 5%;
-}
 nav {
   display: flex;
   flex-flow: row nowrap;
