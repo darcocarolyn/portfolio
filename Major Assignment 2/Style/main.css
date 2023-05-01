@@ -103,9 +103,6 @@ nav a {
   }
   .heading{
       text-align: center;
-      border: 10px solid;
-      border-bottom: 5px solid;
-      border-top: 5px solid;
   }
 
   /* Images */
@@ -115,13 +112,13 @@ nav a {
     grid-template-rows: auto;
     background-image: linear-gradient(rgba(0, 196, 163, 0.5), rgb(0, 39, 112));
     text-align: center;
-    border: 5px solid;
     padding: 10px;
     grid-gap: 10px;
 }
   img{
       width: 96%;
       height: auto;
+      border: solid black 2px;
   }
  }
   /* Mobile Devices*/
@@ -171,8 +168,6 @@ nav a {
   }
   .heading{
     text-align: center;
-    border: 10px solid;
-    border-top: 5px solid;
     padding: 10px;
    }
    .grid-container{
