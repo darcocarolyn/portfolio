@@ -18,6 +18,8 @@
  #aboutMe{
 text-align: center;  
 font-size: 25px;
+font-family: "Loew";
+
  }
  .text {
   text-align: center;
@@ -190,8 +192,8 @@ nav a {
         grid-gap: 10px;
     }
     img{
-        width: 80%;
-        height: auto;
+        width: 70%;
+        height: 70%;
         border: solid black 2px;
     }
     .footer{
@@ -294,7 +296,7 @@ nav a {
     }
     img{
         width: 80%;
-        height: auto;
+        height: 80%;
         border: solid black 2px;
     }
     .footer{
