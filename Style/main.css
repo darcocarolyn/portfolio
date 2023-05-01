@@ -23,6 +23,9 @@ font-size: 25px;
 #portfolio{
   width: 50%;
 }
+.project{
+  background-color: white;
+}
 nav {
   display: flex;
   flex-flow: row nowrap;
@@ -64,8 +67,6 @@ nav a {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
-        background-color: #8BC6EC;
-        background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
         text-align: center;
         border: 3px solid;
         padding: 10px;
