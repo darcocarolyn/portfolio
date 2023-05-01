@@ -32,6 +32,8 @@ font-size: 25px;
   background-color: white;
 }
 #projects{
+  border-left: 6px solid green;
+  height: 10px;
   padding-top: 50px;
   margin-left: 5%;
   text-align:left;
