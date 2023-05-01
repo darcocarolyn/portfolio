@@ -128,9 +128,18 @@ nav a {
   /* Mobile Devices*/
  @media screen and (max-width: 500px) {
   body{
-        background-image: linear-gradient(rgba(0, 196, 163, 0.5), rgb(0, 54, 153));
-
-  }
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+ }
+ #title{
+  text-align: center;
+  font-size: 40px;
+ }
+  #aboutMe{
+    font-size: 25px;
+    text-align: center;
+   }
   nav {
     display: flex;
     flex-flow: row nowrap;
