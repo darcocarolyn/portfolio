@@ -29,7 +29,7 @@ font-size: 25px;
 }
 #projects{
   margin-bottom: 5%;
-  float: left;
+  text-align:left;
 }
 nav {
   display: flex;
