@@ -1,8 +1,4 @@
 @import "normalize.css";
-@font-face{
-  font-family: "OceanFont";
-  src: url(../Font/DeathOceanDemo-vo8M.ttf)
-}
 
  /*Desktop Devices*/
  @media screen and (min-width: 800px) {
@@ -23,6 +19,9 @@
     text-align: center;
     font-size: 18px;
     margin-left: 20px;
+}
+#portfolio{
+  border-radius: 45%;
 }
 nav {
   display: flex;
