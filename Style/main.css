@@ -29,12 +29,9 @@ font-size: 25px;
   width: 50%;
 }
 .project{
-  margin-top: -5%;
   background-color: white;
 }
 #projects{
-  margin-top: -5%;
-  margin-bottom: 5%;
   text-align:left;
   font-family: "Loew";
 }
@@ -73,7 +70,6 @@ nav a {
       grid-gap: 10px;
       grid-template-columns: auto 50%;
       text-align: center;
-      padding-bottom: -10%;
     }
     /* Images */
     .grid-container{
