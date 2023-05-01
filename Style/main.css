@@ -19,20 +19,20 @@
 text-align: center;  
 font-size: 25px;
  }
-  .text{
-    text-align: center;
-    font-size: 18px;
-    margin-left: 20px;
-    margin-top: 10%;
+ .text {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 20px; /* Add some left margin */
+  margin-top: 10%;
 }
 #portfolio{
   width: 50%;
 }
-.project{
+.project {
   background-color: white;
 }
 #projects{
-  padding-top: 1%;
+  padding-top: 3%;
   border-left: 6px solid green;
   position:relative;
   margin-left: 5%;
