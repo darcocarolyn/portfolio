@@ -33,6 +33,7 @@ font-size: 25px;
   background-color: white;
 }
 #projects{
+  margin-top: -5%;
   margin-bottom: 5%;
   text-align:left;
   font-family: "Loew";
