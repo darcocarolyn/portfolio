@@ -53,12 +53,12 @@ nav a {
   font-weight: bold;
   text-transform: uppercase;
 }
-    .heading{
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: auto 50%;
-        text-align: center;
-    }
+.heading {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 0;
+  text-align: center;
+}
     /* Images */
     .grid-container{
         display: grid;
