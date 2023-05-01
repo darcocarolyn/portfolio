@@ -1,6 +1,8 @@
 @import "normalize.css";
-
- /*Desktop Devices*/
+@font-face {
+  font-family: "Loew";
+  src: url(Font\Loew-ExtraBold.otf);
+} /*Desktop Devices*/
  @media screen and (min-width: 800px) {
   body{
     background-color: #e6f1f1;
