@@ -35,6 +35,7 @@ font-size: 25px;
 #projects{
   margin-bottom: 5%;
   text-align:left;
+  font-family: "Loew";
 }
 nav {
   display: flex;
