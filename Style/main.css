@@ -12,10 +12,10 @@
   font-size: 40px;
  }
  #aboutMe{
-  margin-right: 650px;
-  font-size: 25px;
+text-align: center;  
+font-size: 25px;
  }
-  #text{
+  .text{
     text-align: center;
     font-size: 18px;
     margin-left: 20px;
