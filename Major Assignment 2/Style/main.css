@@ -54,12 +54,6 @@ nav a {
   font-weight: bold;
   text-transform: uppercase;
 }
-    .heading{
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: auto auto;
-        text-align: center;
-    }
     /* Images */
     .grid-container{
         display: grid;
@@ -146,12 +140,7 @@ nav a {
   font-weight: bold;
   text-transform: uppercase;
 }
-    .heading{
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: auto auto;
-        text-align: center;
-    }
+  
     /* Images */
     .grid-container{
         display: grid;
@@ -238,12 +227,6 @@ nav a {
   font-weight: bold;
   text-transform: uppercase;
 }
-    .heading{
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: auto auto;
-        text-align: center;
-    }
     /* Images */
     .grid-container{
         display: grid;
