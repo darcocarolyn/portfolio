@@ -1,7 +1,7 @@
 @import "normalize.css";
 @font-face {
   font-family: "Loew";
-  src: url(Font\Loew-ExtraBold.otf);
+  src: url(../Font/Loew-BoldItalic.otf);
 } /*Desktop Devices*/
  @media screen and (min-width: 800px) {
   body{
