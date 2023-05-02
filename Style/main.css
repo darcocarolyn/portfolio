@@ -240,6 +240,8 @@ font-family: "Loew";
 }
 #portfolio{
   width: 50%;
+  border: 2px solid;
+  border-radius: 50%;
 }
 .project {
   background-color: white;
