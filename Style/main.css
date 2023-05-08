@@ -82,17 +82,21 @@ nav a {
 }
     /* Images */
     .grid-container{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto;
-        text-align: center;
-        padding: 10px;
-        grid-gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* change grid-template-columns */
+      grid-template-rows: auto;
+      justify-content: center; /* add justify-content */
+      align-items: center; /* add align-items */
+      text-align: center;
+      padding: 10px;
+      grid-gap: 10px;
     }
+    
     img{
-        width: 80%;
-        height: auto;
-        border: solid black 2px;
+      width: 100%; /* change image width */
+      max-width: 400px; /* add max-width */
+      height: auto;
+      border: solid black 2px;
     }
     .footer{
       font-size: 17px;
