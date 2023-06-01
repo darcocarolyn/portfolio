@@ -178,7 +178,12 @@ nav ul {
   padding: 0;
   align-items: center;
 }
-
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
 nav li {
   margin-right: 20px;
 
