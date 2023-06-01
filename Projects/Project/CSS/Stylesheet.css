@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    /*banner*/
+    background-image: url('../images/Horror Banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+font-face {
+    font-family: 'centaur';
+    src: url(CENTAUR.TTF);
+}
+/*Title Heading*/
+h1{
+    font-size: 55px;
+    font-family: 'centaur';
+    src: url(CENTAUR.TTF);
+    color:#ff8800; background-color: black;
+    border:rgb(0, 0, 0); 
+    border-width:7px; 
+    border-style:solid;
+}
+/*Secondary Headings*/
+h2{
+    font-family: 'centaur';
+    src: url(CENTAUR.TTF);
+    color:#ff8800;
+    font-size: 35px;
+}
+/*Film Titles*/
+h3{
+    color: #ff8800;
+    font-size: 30px;
+}
+/*Navigation Bar*/
+.navbar {
+    font-family: 'centaur';
+    src: url(CENTAUR.TTF);
+    width: 100%;
+     background-color: black;
+       overflow: auto;
+  }
+  .navbar a {
+    float: left;
+    color: #ff8800;
+    text-decoration: none;
+    font-size: 20px;
+    width: 33.33%;
+    text-align: center;
+  }
+/*Content*/
+#p1{ 
+    color: #ffb01d;
+width: 90%;
+margin: auto;
+margin-bottom: 10px;
+font-size: 20px;
+}
+/*Brief History Images with Captions*/
+#fig1{
+    float: left;
+    padding-left: 29%;
+}
+#fig2{
+    float: right;
+    padding-right: 29%;
+}
+figcaption{
+    font-size: 15px;
+    color: white;
+}
+/*Images*/
+div img{ 
+    height: 260px;  
+    width: 300px;
+    display: inline block;
+}
