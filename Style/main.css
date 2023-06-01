@@ -108,10 +108,10 @@ nav {
 }
 
 .menu>li:hover .sub-menu li {
-  transform: scale(1);
+  transform: scaleY(1); /* Changed 'scale' to 'scaleY' */
 }
 .menu>li:hover .sub-menu {
-  transform: scale(1);
+  transform: scaleY(1); /* Changed 'scale' to 'scaleY' */
 }
     /* Images */
     .grid-container{
