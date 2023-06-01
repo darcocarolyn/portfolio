@@ -178,6 +178,18 @@ nav ul {
   padding: 0;
   align-items: center;
 }
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
 nav ul ul li {
 	width:170px;
 	float:none;
