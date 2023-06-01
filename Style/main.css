@@ -51,7 +51,6 @@ font-family: "Loew";
   text-align: center;
 }
 nav {
-  display: flex;
   flex-flow: row nowrap;
   justify-content:center;
   background-color: #333;
