@@ -91,7 +91,6 @@ nav {
   width: 140px;
   height: 40px;
   line-height: 40px;
-  background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
   font-size: 17px;
 }
@@ -102,7 +101,7 @@ nav {
 }
 .sub-menu li {
   font-size: 14px;
-  background: rgba(0, 0, 0, 0.8);
+  background-color: #333;
   padding: 8px 0;
   color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
