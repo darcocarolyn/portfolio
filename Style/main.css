@@ -87,11 +87,8 @@ nav {
   display: inline-block;
 }
 .menu>li {
-  float: left;
-  width: 140px;
-  height: 40px;
-  line-height: 40px;
   font-size: 17px;
+  float: left;
 }
 .sub-menu {
   transform: scale(0);
