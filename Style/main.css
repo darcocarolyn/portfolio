@@ -85,10 +85,12 @@ nav {
 }
 .menu {
   display: inline-block;
+  position: relative;
 }
 .menu>li {
   font-size: 17px;
-  float: left;
+  float: none; 
+  display: inline-block;
 }
 .sub-menu {
   transform: scale(0);
