@@ -212,6 +212,22 @@ nav a {
 .dropDown li:hover {
   background: black;
 }
+nav>li:hover .sub-menu li {
+  transform: scale(1);
+}
+nav>li:hover .sub-menu {
+  transform: scale(1);
+}
+nav>li {
+  float: left;
+  color: #e298e1;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  font-size: 17px;
+}
     /* Images */
     .grid-container{
         display: grid;
