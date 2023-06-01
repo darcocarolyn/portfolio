@@ -195,7 +195,6 @@ font-family: "Loew";
 }
 nav {
   display: flex;
-  flex-flow: row nowrap;
   justify-content:center;
   background-color: #333;
   color: #fff;
@@ -204,15 +203,14 @@ nav {
 }
 
 nav ul {
-  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  align-items: center;
 }
 
 nav li {
   margin-right: 20px;
+
 }
 
 nav a {
@@ -221,6 +219,41 @@ nav a {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+}
+nav {
+  text-align: center;
+}
+.menu {
+  display: inline-block;
+}
+.menu>li {
+  float: left;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+}
+.sub-menu {
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+  
+}
+.sub-menu li {
+  font-size: 14px;
+  background-color: #333;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+}
+
+.menu>li:hover .sub-menu li {
+  transform: scale(1);
+}
+.menu>li:hover .sub-menu {
+  transform: scale(1);
 }
     /* Images */
     .grid-container{
@@ -301,7 +334,6 @@ font-family: "Loew";
 }
 nav {
   display: flex;
-  flex-flow: row nowrap;
   justify-content:center;
   background-color: #333;
   color: #fff;
@@ -310,11 +342,9 @@ nav {
 }
 
 nav ul {
-  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  align-items: center;
 }
 
 nav li {
@@ -328,6 +358,41 @@ nav a {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+}
+nav {
+  text-align: center;
+}
+.menu {
+  display: inline-block;
+}
+.menu>li {
+  float: left;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+}
+.sub-menu {
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+  
+}
+.sub-menu li {
+  font-size: 14px;
+  background-color: #333;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+}
+
+.menu>li:hover .sub-menu li {
+  transform: scale(1);
+}
+.menu>li:hover .sub-menu {
+  transform: scale(1);
 }
     /* Images */
     .grid-container{
