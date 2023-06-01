@@ -213,6 +213,10 @@ nav a {
 .dropdown:hover .dropdown-content {
   display: block; /* Show the dropdown menu on hover */
 }
+
+.dropdown:hover > a {
+  color: #ff0000; /* Change the color of the parent link on hover */
+}
     /* Images */
     .grid-container{
         display: grid;
