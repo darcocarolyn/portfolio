@@ -35,6 +35,9 @@ font-family: "Loew";
 .project {
   background-color: white;
   padding: 20px;
+  z-index: 1;
+  position: absolute;
+
 }
 #projects{
   border-left: 6px solid #86b7c2;
@@ -52,6 +55,7 @@ font-family: "Loew";
 }
 nav {
   display: flex;
+  text-align: center;
   justify-content:center;
   background-color: #333;
   color: #fff;
@@ -77,9 +81,6 @@ nav a {
   font-weight: bold;
   text-transform: uppercase;
 }
-nav {
-  text-align: center;
-}
 .menu {
   display: inline-block;
 }
@@ -95,7 +96,7 @@ nav {
   transform-origin: top center;
   transition: transform 300ms ease-in-out;
   position: absolute; 
-  z-index: 1;
+  z-index: 2
 }
 
 .sub-menu li {
@@ -183,6 +184,8 @@ font-family: "Loew";
 .project {
   background-color: white;
   padding: 20px;
+  z-index: 1;
+  position: absolute;
 
 }
 #projects{
@@ -198,7 +201,8 @@ font-family: "Loew";
 }
 nav {
   display: flex;
-  justify-content:center;
+  text-align: center;
+  justify-content:flex;
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -223,9 +227,7 @@ nav a {
   font-weight: bold;
   text-transform: uppercase;
 }
-nav {
-  text-align: center;
-}
+
 .menu {
   display: inline-block;
 }
@@ -240,7 +242,9 @@ nav {
   transform: scale(0);
   transform-origin: top center;
   transition: all 300ms ease-in-out;
-  
+  z-index: 2;  
+  position: absolute;
+
 }
 .sub-menu li {
   font-size: 14px;
@@ -293,7 +297,7 @@ nav {
  }
   /* Mobile Devices*/
  @media screen and (max-width: 500px) {
-  
+ 
     /* Images */
     .grid-container{
         display: grid;
