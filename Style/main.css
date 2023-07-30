@@ -95,6 +95,7 @@ nav {
   transform-origin: top center;
   transition: transform 300ms ease-in-out;
   position: absolute; /* Add this line to position the sub-menu correctly */
+  z-index: 1;
 }
 
 .sub-menu li {
