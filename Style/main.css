@@ -94,7 +94,7 @@ nav {
   transform: scaleY(0);
   transform-origin: top center;
   transition: transform 300ms ease-in-out;
-  position: absolute; /* Add this line to position the sub-menu correctly */
+  position: absolute; 
   z-index: 1;
 }
 
@@ -110,10 +110,10 @@ nav {
 
 .menu>li:hover .sub-menu li,
 .sub-menu li:hover {
-  transform: scaleY(1); /* Changed 'scale' to 'scaleY' */
+  transform: scaleY(1); 
 }
 .menu>li:hover .sub-menu {
-  transform: scaleY(1); /* Changed 'scale' to 'scaleY' */
+  transform: scaleY(1); 
 }
     /* Images */
     .grid-container{
