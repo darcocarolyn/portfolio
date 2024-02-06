@@ -28,8 +28,8 @@ margin-top: 10%;
 }
 #portfolio{
 width: 50%;
-border: 2px solid;
-border-radius: 50%;
+border: 2px none;
+border-radius: 25%;
 }
 .project {
 background-color: white;
