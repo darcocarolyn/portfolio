@@ -35,7 +35,7 @@ margin-top: 10%;
 }
 #text{
   font-family: 'Roboto';
-  font-size: 25px;
+  font-size: 20px;
 }
 #portfolio{
 width: 45%;
@@ -72,6 +72,8 @@ grid-gap: 10px;
 grid-template-columns: auto 50%;
 text-align: center;
 background: linear-gradient(to right, #bde0fe, #8dc8ff); 
+padding-bottom: 50px;
+padding-top: 25px;
 }
 .aboutSection{
   display: grid;
