@@ -3,6 +3,10 @@
   font-family: "Loew";
   src: url(../Font/Loew-BoldItalic.otf);
 } 
+@font-face {
+  font-family: "Roboto";
+  src: url(../Font/Roboto-Regular.ttf);
+} 
 body{
   background-color: #333;
   
@@ -20,11 +24,18 @@ font-size: 25px;
 font-family: "Loew";
 
 }
+figcaption{
+  font-family: 'Roboto';
+}
 .text {
 text-align: center;
 font-size: 18px;
 margin-left: 20%;
 margin-top: 10%;
+}
+#text{
+  font-family: 'Roboto';
+  font-size: 25px;
 }
 #portfolio{
 width: 45%;
