@@ -1,41 +1,82 @@
 @import "normalize.css";
 @font-face {
-  font-family: "Loew";
-  src: url(../Font/Loew-BoldItalic.otf);
+  font-family: "Merriweather-Bold";
+  src: url(../Font/Merriweather-Bold.ttf);
 } 
 @font-face {
-  font-family: "Roboto";
-  src: url(../Font/Roboto-Regular.ttf);
+  font-family: "Merriweather-Regular";
+  src: url(../Font/Merriweather-Regular.ttf);
 } 
 body{
-  background-color: #333;
+  background-color: #ffff;
   
 }
-#title{
+#aboutIntroText {
+  font-size: 20px;
+color: #33312E;
+font-family: "Merriweather-Bold";
 text-align: center;
-font-size: 40px;
-color: #457b9d;
-font-family: "Loew";
+width: 50%;
+margin-left: 25%
+}
+#aboutSub {
+  text-align:left;
+  color: #33312E;
+font-family: "Merriweather-Bold";
+font-size: 25px;
+}
+#title{
+margin-top: 26%;
+font-size: 60px;
+color: #33312E;
+font-family: "Merriweather-Bold";
+margin-bottom: 50px;
+text-align: center;
+}
+#sectionHeading{
+  font-size: 40px;
+color: #33312E;
+font-family: "Merriweather-Bold";
+text-align: center;
+margin-top: 8%;
+}
+button {
+  padding: 10px;
+  padding-left: 65px;
+  padding-right: 65px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+  margin-top: 30px;
+  background-color: #5e5157;
+  color: #ffffff;
 
+}
+a {
+  text-decoration: none;
 }
 #aboutMe{
 text-align: center;  
 font-size: 25px;
-font-family: "Loew";
+font-family: "Merriweather-Bold";
 
 }
 figcaption{
-  font-family: 'Roboto';
+  font-family: 'Merriweather-Regular';
 }
 .text {
-text-align: center;
-font-size: 18px;
-margin-left: 20%;
-margin-top: 10%;
+  text-align: center;
+  margin-left: 15%;
+  align-self: center;
 }
+
 #text{
-  font-family: 'Roboto';
+  font-family: 'Merriweather-Regular';
   font-size: 20px;
+  width: 70%;
+  margin-left: 15%;
 }
 #portfolio{
 width: 45%;
@@ -49,48 +90,100 @@ position: relative;
 }
 
 .footer {
-font-size: 14px;
-width: 100%;
-color: #fff;
+  display: grid;
+grid-gap: 10px;
+grid-template-columns: auto 50%;
 text-align: center;
-position: relative; 
-z-index: 2; 
-
-text-transform: uppercase;
+padding-bottom: 80px;
+background-color: #1f1f1f;
+color: #fff;
 }
 #projects{
 border-left: 6px solid #86b7c2;
 position:relative;
 margin-left: 5%;
 text-align:left;
-font-family: "Loew";
+font-family: "Merriweather-Bold";
 color: #cc9828;
 }
 .heading{
-display: grid;
-grid-gap: 10px;
-grid-template-columns: auto 50%;
-text-align: center;
-background: linear-gradient(to right, #bde0fe, #8dc8ff); 
-padding-bottom: 50px;
-padding-top: 25px;
-}
-.aboutSection{
-  display: grid;
-grid-gap: 10px;
-grid-template-columns: auto 50%;
-text-align: center;
-background: linear-gradient(to right, #bde0fe, #8dc8ff); 
-padding-bottom: 80px;
-}
-nav {
 display: flex;
+background-color: #D2C4C4;
+padding-bottom: 13%;
+}
+
+.aboutSection{
+  margin-top: -5%;
+  display: grid;
+grid-gap: 3%;
+grid-template-columns: auto 40%;
 text-align: center;
-justify-content:center;
-background-color: #333;
-color: #fff;
-padding: 20px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.sectionTitle{
+  text-align: center;
+}
+.aboutText{
+  text-align: left;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+#aboutText {
+  font-family: 'Merriweather-Regular';
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 50%;
+  align-self: center;
+}
+.mySkills{
+  text-align: center;
+  margin-top: 23%;
+}
+#skills-container {
+  width: 80%;
+}
+.skill-item {
+  font-size: 20px;
+  background-color: #FFFDF8;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+nav {
+  position: fixed; /* Fix the navigation bar position */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Make it span the full width of the viewport */
+  height: 10%;
+  display: flex;
+  justify-content: space-between; /* Aligns items to the left and right */
+  align-items: center; /* Aligns items vertically */
+  background-color: #5e5157;
+  color: #fff;
+  padding: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  z-index: 2; /* Ensure it appears above other content */
+  
+}
+#navName {
+  margin-left: 20px; 
+  color: #fff;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
 }
 
 nav ul {
@@ -100,24 +193,22 @@ padding: 0;
 }
 
 nav li {
-margin-right: 20px;
+margin-right: 50px;
 
 }
 
 nav a {
 color: #fff;
 text-decoration: none;
-font-size: 18px;
+font-size: 15px;
 font-weight: bold;
 text-transform: uppercase;
 }
-.menu {
-display: inline-block;
-}
+
 .menu>li {
+margin-left: 15px; /* Adds some margin between menu items */
 float: left;
-width: 140px;
-height: 40px;
+width: auto;
 line-height: 40px;
 font-size: 17px;
 }
@@ -146,11 +237,66 @@ transform: scaleY(1);
 .menu>li:hover .sub-menu {
 transform: scaleY(1); 
 }
+.contactMe {
+  background-color: #D2C4C4;
+  padding-bottom: 10%; /* Adjust this value as needed */
+  padding-top: 1px;
+  }
 
+.contact-form-container {
+  background-color: #ffffff;
+  width: 45%;
+  margin-left: 25%;
+  padding: 3%;
+  border-radius: 5px;
+  box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+}
+
+
+.form-group {
+  margin-bottom: 7%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+input{
+  background-color: #f0f0f0;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
 /*Desktop Devices*/
  @media screen and (min-width: 800px) {
     /* Images */
     .grid-container{
+      margin-top: 7%;
       display: grid;
       grid-template-columns: repeat(2, 1fr); /* change grid-template-columns */
       grid-template-rows: auto;
@@ -169,7 +315,7 @@ transform: scaleY(1);
     }
   
     a{
-      color: #315a68;
+      color: #ffffff;
       font-size: 20px;    }
     a:active {
       color: #315a68
