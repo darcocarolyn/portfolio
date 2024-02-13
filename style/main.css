@@ -52,7 +52,8 @@ button {
   margin-top: 30px;
   background-color: #5e5157;
   color: #ffffff;
-
+  font-family: "Merriweather-Regular";
+  cursor:pointer;
 }
 a {
   text-decoration: none;
@@ -129,7 +130,7 @@ text-align: center;
 }
 #aboutText {
   font-family: 'Merriweather-Regular';
-  font-size: 20px;
+  font-size: 18px;
 }
 ul {
   list-style-type: none;
