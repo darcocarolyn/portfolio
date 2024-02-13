@@ -69,7 +69,7 @@ figcaption{
 }
 .text {
   text-align: center;
-  margin-left: 15%;
+  margin-left: 12%;
   align-self: center;
 }
 
@@ -312,7 +312,8 @@ button[type="submit"]:hover {
       width: 100%; 
       max-width: 600px;
       height: auto;
-      border: solid black 2px;
+      border: solid #5e5157 2px;
+      border-radius: 5px;
     }
   
     a{
