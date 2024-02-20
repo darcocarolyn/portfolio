@@ -9,7 +9,6 @@
 } 
 body{
   background-color: #ffff;
-  
 }
 #aboutIntroText {
   font-size: 20px;
@@ -17,21 +16,23 @@ color: #33312E;
 font-family: "Merriweather-Bold";
 text-align: center;
 width: 50%;
-margin-left: 25%
+margin-left: auto;
+margin-right: auto;
 }
 #aboutSub {
-  text-align:left;
   color: #33312E;
 font-family: "Merriweather-Bold";
 font-size: 25px;
 }
 #title{
-margin-top: 26%;
 font-size: 60px;
 color: #33312E;
 font-family: "Merriweather-Bold";
 margin-bottom: 50px;
 text-align: center;
+}
+.sectionHeading{
+  text-align: center;
 }
 #sectionHeading{
   font-size: 40px;
@@ -39,16 +40,18 @@ color: #33312E;
 font-family: "Merriweather-Bold";
 text-align: center;
 margin-top: 8%;
+margin-left: auto;
+margin-right: auto;
 }
 button {
   padding: 10px;
-  padding-left: 65px;
-  padding-right: 65px;
+  padding-left: 60px;
+  padding-right: 60px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
   border-radius: 5px;
   border: none;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 30px;
   background-color: #5e5157;
   color: #ffffff;
@@ -70,8 +73,9 @@ figcaption{
 }
 .text {
   text-align: center;
-  margin-left: 16%;
-  align-self: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #text{
@@ -127,7 +131,7 @@ text-align: center;
 .aboutText{
   text-align: left;
   margin-top: 15%;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 #aboutText {
   font-family: 'Merriweather-Regular';
@@ -148,6 +152,8 @@ ul {
 }
 #skills-container {
   width: 80%;
+margin-left: auto;
+margin-right: auto;
 }
 .skill-item {
   font-size: 20px;
@@ -248,7 +254,8 @@ transform: scaleY(1);
 .contact-form-container {
   background-color: #ffffff;
   width: 45%;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 3%;
   border-radius: 5px;
   box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
@@ -311,9 +318,10 @@ button[type="submit"]:hover {
       margin-top: -5%;
       display: grid;
     grid-gap: 3%;
-    grid-template-columns: auto 40%;
+    grid-template-columns: auto 40;
     text-align: center;
     }
+  
     img{
       width: 100%; 
       max-width: 600px;
@@ -340,12 +348,25 @@ button[type="submit"]:hover {
     grid-template-columns: auto;
     grid-template-rows: auto;    
     text-align: center;
+    margin-left: -10%;
+
     }
+    .mySkills{
+      text-align: center;
+      margin-top: -1%;
+      margin-left: 18%;
+    }
+ 
     img{
       width: 100%; /* change image width */
       max-width: 600px; /* add max-width */
       height: auto;
       border: solid black 2px;
+    }
+    .aboutText{
+      text-align: center;
+      margin-top: 15%;
+      margin-left: 10%;
     }
  }
   /* Mobile Devices*/
@@ -366,6 +387,12 @@ button[type="submit"]:hover {
     grid-template-columns: auto;
     grid-template-rows: auto;    
     text-align: center;
+    margin-left: -10%;
+    }
+    .aboutText{
+      text-align: center;
+      margin-top: 15%;
+      margin-left: 10%;
     }
     img{
       width: 100%; /* change image width */
