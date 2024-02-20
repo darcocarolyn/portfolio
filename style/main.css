@@ -220,31 +220,6 @@ width: auto;
 line-height: 40px;
 font-size: 17px;
 }
-.sub-menu {
-transform: scaleY(0);
-transform-origin: top center;
-transition: transform 300ms ease-in-out;
-position: absolute; 
-z-index: 2
-}
-
-.sub-menu li {
-font-size: 14px;
-background-color: #333;
-color: white;
-border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-transform: scaleY(0);
-transform-origin: top center;
-transition: transform 300ms ease-in-out;
-}
-
-.menu>li:hover .sub-menu li,
-.sub-menu li:hover {
-transform: scaleY(1); 
-}
-.menu>li:hover .sub-menu {
-transform: scaleY(1); 
-}
 .contactMe {
   background-color: #D2C4C4;
   padding-bottom: 10%; /* Adjust this value as needed */
@@ -300,8 +275,57 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 25px;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5e5157;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%; /* Extend the menu to full width */
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Desktop Devices*/
- @media screen and (min-width: 800px) {
+ @media screen and (min-width: 900px) {
     /* Images */
     .grid-container{
       margin-top: 7%;
@@ -368,9 +392,17 @@ button[type="submit"]:hover {
       margin-top: 15%;
       margin-left: 10%;
     }
+    .menu {
+      display: none; /* Hide the default menu */
+    }
+  
+    #hamburger-icon {
+      display: block;
+    }
+    
  }
   /* Mobile Devices*/
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 600px) {
     /* Images */
     .grid-container{
         display: grid;
@@ -400,4 +432,12 @@ button[type="submit"]:hover {
       height: auto;
       border: solid black 2px;
     }
+    .menu {
+      display: none; /* Hide the default menu */
+    }
+  
+    #hamburger-icon {
+      display: block;
+    }
+
 }
