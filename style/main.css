@@ -102,14 +102,14 @@ position: relative;
 }
 
 .footer {
-  display: grid;
-grid-gap: 10px;
-grid-template-columns: auto 50%;
-text-align: center;
-padding-bottom: 80px;
+padding-top: 20px;
+padding-bottom: 20px;
 background-color: #1f1f1f;
 color: #fff;
+font-size: 20px;
+text-align: center;
 }
+
 #projects{
 border-left: 6px solid #86b7c2;
 position:relative;
