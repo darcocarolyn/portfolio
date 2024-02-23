@@ -74,6 +74,10 @@ font-family: "Merriweather-Bold";
 figcaption{
   font-family: 'Merriweather-Regular';
 }
+#Project-Title{
+  font-family: 'Merriweather-Bold';
+  font-size: 28px;
+}
 .text {
   text-align: center;
   margin-top: 15%;
@@ -239,8 +243,8 @@ font-size: 17px;
   padding: 3%;
   border-radius: 5px;
   box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  margin-top: 3%;
 }
-
 
 .form-group {
   margin-bottom: 7%;
@@ -328,7 +332,18 @@ button[type="submit"]:hover {
   margin-left: auto;
   margin-right: auto;
 }
+nav a:hover {
+  color: #ffcc00; /* Change the color when hovered over */
+}
+.tags img {
+  display: inline-block; /* Display images as inline-block elements */
+  vertical-align: middle; /* Vertically align images in the middle */
+}
 
+#icon {
+  width: 50px;
+  border: none;
+}
 /*Desktop Devices*/
  @media screen and (min-width: 900px) {
     /* Images */
@@ -406,6 +421,15 @@ button[type="submit"]:hover {
       display: block;
     }
     
+    .tags img {
+      display: inline-block; /* Display images as inline-block elements */
+      vertical-align: middle; /* Vertically align images in the middle */
+    }
+    
+    #icon {
+      width: 50px;
+      border: none;
+    }
  }
   /* Mobile Devices*/
  @media screen and (max-width: 600px) {
@@ -451,5 +475,13 @@ button[type="submit"]:hover {
     #hamburger-icon {
       display: block;
     }
-
+    .tags img {
+      display: inline-block; /* Display images as inline-block elements */
+      vertical-align: middle; /* Vertically align images in the middle */
+    }
+    
+    #icon {
+      width: 50px;
+      border: none;
+    }
 }

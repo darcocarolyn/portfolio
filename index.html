@@ -46,7 +46,7 @@ emailjs.init("arZzJCsLVDnmTV5Mi");
     <p id="text">I'm a Front-End Web Developer in Naples, Florida and knowledgeable in HTML, CSS, JavaScript,
       and React!
     </p>
-    <button href="javascript:void(0);" onclick="scrollToSection('project')">Projects</button>
+    <button><a href="https://drive.google.com/file/d/1vWr2y4db0wc3wQpmTRqx48QHFDNTtTLJ/view?usp=drive_link" target="_blank">Resume</a></button>
   </div>
   </div>
   <div id="aboutSection"></div>
@@ -93,64 +93,89 @@ emailjs.init("arZzJCsLVDnmTV5Mi");
       <img src="Images/Desktop - 1.png" alt="exercise-app">
     </figure>
     <figcaption>
-      <h3>Daily Mail Website Redesign</h3>
+      <h3 id="Project-Title">Daily Mail Website Redesign</h3>
       This is a redesign prototype of the Daily Mail Website using Figma
+      <br></br>
+      <div class="tags">
+        <div class="tag tag-figma">
+          <img src="Images/figma.png" id="icon">
+        </div>
+      </div>
       <button><a href="https://www.figma.com/proto/KkzPJzbRkW8QbanwQYoKHj/The-Daily-Mail?node-id=1-3&starting-point-node-id=1%3A3&t=p8OHeUHuZKGfBC60-1">Check Out Prototype</a></button>
     </figcaption>
     <figure>
       <img src="Images/Screenshot 2023-10-28 165246.png" alt="extension">
       </figure>
       <figcaption class="link">
-        <h3>Wellness Extension</h3>
+        <h3 id="Project-Title">Wellness Extension</h3>
           This is a Google Extension using JavaScript that promotes wellness and positivity, created at the ShellHacks 2023
-          event.
+          event. The overall purpose of this Google extension is to promote wellness and positivity through postive messages, 
+          a 30 minute timer urging users to take a break, and reminding them of any tasks that they need to complete.
       <br><br>
+      <div class="tags">
+          <img src="Images/html logo 1.png" id="icon">
+          <img src="Images/css logo 1.png" id="icon">
+          <img src="Images/javascript logo 1.png" id="icon">
+      </div>
         <button><a href="https://github.com/darcocarolyn/wellness-extension">Check Out Repository</a></button>
       </figcaption>
     <figure>
       <img src="Images/TODO-app.png" alt="todo-app">
     </figure>
     <figcaption class="link">
-      <h3>TODO App</h3>
-      A React Native app that displays a task list which allows
-      users to add, edit, delete, and mark tasks as completed or not.
-    <br><br>
+      <h3 id="Project-Title">TODO App</h3>
+      This is a React Native app that displays a task list which allows users to add, edit, delete and mark tasks as completed or not. 
+      It consists of 3 screens, the Login screen, the Register screen, and the TODO screen which contains the app itself.
+      <br><br>
+      <div class="tags">
+      <img src="Images/react logo 1.png" id="icon">
+      </div>
       <button><a href="https://github.com/darcocarolyn/todo-app">Check Out Repository</a></button>
     </figcaption>
     <figure>
       <img src="Images/exerciseImage.png" alt="exercise-app">
     </figure>
     <figcaption>
-      <h3>Exercise App</h3>
+      <h3 id="Project-Title">Exercise App</h3>
       A React Native app that displays a list of exercises and
       <br>allows the user to select an exercise to perform.
       <br><br>
+      <div class="tags">
+        <img src="Images/react logo 1.png" id="icon">
+        </div>
       <button><a href="https://github.com/darcocarolyn/exercise-app">Check Out Repository</a></button>
     </figcaption>
     <figure>
       <img src="Images/Screenshot 2023-10-28 173317.png" alt="website3">
       </figure>
       <figcaption>
-        <h3>Rule of Thirds</h3>
+        <h3 id="Project-Title">Rule of Thirds</h3>
         This is a static webpage for a film premiere event called Rule of Thirds. It was created mainly through HTML and CSS. 
         There is a bit of JavaScript in order to implement a contact inquiry form using email JS for any users who might have any questions 
         about the event.
         <br><br>
+        <div class="tags">
+          <img src="Images/figma.png" id="icon">
+        <img src="Images/html logo 1.png" id="icon">
+        <img src="Images/css logo 1.png" id="icon">
+        <img src="Images/javascript logo 1.png" id="icon">
+        </div>
         <button><a href="https://github.com/darcocarolyn/Rule-of-Thirds/tree/main">Check out Repository</a></button>
       </figcaption>
   </div>
 </div>
 <div class="contactMe" id="contactMe">
   <h3 id="sectionHeading">Contact</h3>
+  <p id="aboutIntroText">I look forward to hearing from you and will respond back as soon as possible!</p>
   <div class="contact-form-container">
     <div class="form-wrapper">
       <form onsubmit="sendEmail(); reset(); return false;">
         <div class="form-group">
-          <label for="name">Your Name:</label>
+          <label for="name">Name:</label>
           <input type="text" id="name" name="name" required>
         </div>
         <div class="form-group">
-          <label for="email">Your Email:</label>
+          <label for="email">Email:</label>
           <input type="email" id="email" name="email" required>
         </div>
           <label>Message: <textarea id="message" rows="6" cols="25" value=""></textarea></label>
